@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f9ff;
+    /* background-color: #ff0000; */
     padding: 20px;
+    background-image: url(img/hospital.jpg);
 }
+
 
 .container {
     width: 400px;
@@ -52,3 +54,17 @@ li {
     padding: 10px;
     border-radius: 5px;
 }
+button {
+    background-color: #0066cc;
+}
+
+#btn-atender {
+    background-color: #28a745;
+}
+
+#btn-restaurar {
+    background-color: #ffc107;
+    color: black;
+}
+
+
