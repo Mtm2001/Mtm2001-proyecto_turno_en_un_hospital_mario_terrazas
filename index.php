@@ -10,10 +10,16 @@ $lista = $cola->obtenerCola();
     <title>Turnos en el Hospital</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<style>
+    body{
+        background-image: url(img/hospital.jpg);
+        size: 100%;
+    }
+</style>
 
 <body>
     <div class="container">
-        <h1>🩺 Turnos en el Hospital</h1>
+        <h1>Turnos en el Hospital</h1>
         <form id="form-turno">
             <input type="text" name="nombre" placeholder="Nombre del paciente" required>
             <button type="submit">Agregar</button>
